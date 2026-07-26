@@ -8,77 +8,19 @@
       content="RepLogger is a focused strength-training log for fast set tracking, workout history, and simple progress trends."
     />
     <title>RepLogger — Simple Strength Workout Log</title>
-    <style>
-      :root {
-        color-scheme: light;
-        --accent: #a9471f;
-        --background: #f4efe6;
-        --border: #dfd1bf;
-        --muted: #6d665f;
-        --surface: #fffaf3;
-        --text: #1f1a17;
-      }
-      * {
-        box-sizing: border-box;
-      }
-      body {
-        background: var(--background);
-        color: var(--text);
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-        line-height: 1.6;
-        margin: 0;
-      }
-      main {
-        margin: 0 auto;
-        max-width: 760px;
-        padding: 56px 20px;
-      }
-      .eyebrow {
-        color: var(--accent);
-        font-size: 0.9rem;
-        font-weight: 800;
-        letter-spacing: 0.12em;
-        margin: 0 0 12px;
-        text-transform: uppercase;
-      }
-      h1 {
-        font-size: clamp(2.25rem, 7vw, 4rem);
-        letter-spacing: -0.04em;
-        line-height: 1.05;
-        margin: 0;
-      }
-      .intro {
-        color: var(--muted);
-        font-size: 1.2rem;
-        margin: 24px 0 32px;
-      }
-      .card {
-        background: var(--surface);
-        border: 1px solid var(--border);
-        border-radius: 20px;
-        margin-top: 18px;
-        padding: 24px;
-      }
-      h2 {
-        font-size: 1.35rem;
-        margin: 0 0 10px;
-      }
-      ul {
-        margin: 0;
-        padding-left: 1.3rem;
-      }
-      a {
-        color: var(--accent);
-        font-weight: 700;
-      }
-      footer {
-        color: var(--muted);
-        margin-top: 32px;
-      }
-    </style>
+    <link rel="stylesheet" href="../styles.css" />
   </head>
   <body>
     <main>
+      <nav aria-label="Primary navigation">
+        <a class="brand" href="../">RepLogger</a>
+        <div class="nav-links">
+          <a aria-current="page" href="./">Marketing</a>
+          <a href="../privacy/">Privacy</a>
+          <a href="../">Support</a>
+        </div>
+      </nav>
+
       <p class="eyebrow">RepLogger</p>
       <h1>Fast workout logging built for the gym floor.</h1>
       <p class="intro">
@@ -106,6 +48,7 @@
           when you explicitly choose a destination through the system share
           sheet.
         </p>
+        <p><a href="../privacy/">Read the full privacy policy</a>.</p>
       </section>
 
       <footer>
@@ -113,6 +56,7 @@
           Need help? Visit <a href="../">RepLogger Support</a> or email
           <a href="mailto:coldevx@gmail.com">coldevx@gmail.com</a>.
         </p>
+        <p>© 2026 coldevx. All rights reserved.</p>
       </footer>
     </main>
   </body>
